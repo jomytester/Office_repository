@@ -41,7 +41,6 @@ public class Login_valid_credential {
 	     assertion.assertEquals(actual_result1, actual_result1.contains("Your account has been locked"));
 	  }
 
-	
     @Test(priority = 3)
 	public void login_Valid_credential_check() throws InterruptedException {
 		
